@@ -1,9 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
+    --primary: #0093dd;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
+    --tourPrimary: #0093dd;
+    --tourSecondary: #da251c;
 }
 
 .fw-medium {
@@ -230,7 +232,7 @@
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: black;
 }
 
 .service-item * {
@@ -440,4 +442,11 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+/* custom css */
+
+.services-icons {
+    width: 3.5rem;
 }
